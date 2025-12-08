@@ -35,7 +35,7 @@
         wrote_mail: wrote_mail {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp N &kp E &kp C &kp H &kp I &kp F &kp O &kp R &kp E &kp L &kp S &kp A &kp M &kp U &kp E &kp L &kp AT &kp G &kp M &kp A &kp I &kp L &kp DOT &kp C &kp O &kp M>;
+            bindings = <&none &kp N &kp E &kp C &kp H &kp I &kp F &kp O &kp R &kp E &kp L &kp S &kp A &kp M &kp U &kp E &kp L &kp AT &kp G &kp M &kp A &kp I &kp L &kp DOT &kp C &kp O &kp M &to 0>;
             label = "WROTE_MAIL";
         };
 
