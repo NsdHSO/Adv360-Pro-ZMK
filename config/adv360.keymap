@@ -42,7 +42,7 @@
         open_github: open_gitghub {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LG(T) &my_github_prof>;
+            bindings = <&kp LG(T) &my_github_prof &tog 0>;
             label = "OPEN_GITGHUB";
         };
 
